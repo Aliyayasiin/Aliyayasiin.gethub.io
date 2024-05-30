@@ -1,0 +1,126 @@
+*
+{
+    
+}
+body
+{
+
+  
+  min-height: 120vh;
+
+  background:  #ffff;
+
+}
+
+.item1 {
+    width: 500px;
+    height: 280px;
+    margin-left: 40px;
+    
+    
+    top: 6%;
+    left: 15px;
+    position: relative;
+    transition: 0.5s;
+    border-radius: 0px;
+    border: 1px solid black;
+    user-select: none;
+    border-spacing: 2px solid #ffff;
+    box-shadow: 5px 10px 10px #888888;
+    
+    
+}
+
+
+table, th, td  {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+ th, td  {
+    padding: 5px;
+}
+tr:first-child {
+    background-color: yellow;
+}
+tr:nth-child(3) {
+    background-color: yellow;
+}
+tr:nth-child(5),tr:nth-child(7) {
+    background-color: yellow;
+}
+table {
+    margin-left: 40px;
+    width: 450px;
+    left: -15px;
+    right: 10;
+    top: 10%;
+    position: relative;
+}
+
+.num {
+    
+}
+
+th {
+    text-align: left;
+}
+
+th .department {
+    float: left;
+}
+
+.item2 {
+    width: 700px;
+    height: 340px;
+    margin-left: 40px;
+    
+    
+    bottom: -100px;
+    left: 15px;
+    position: absolute;
+    transition: 0.5s;
+    border-radius: 0px;
+    border: 1px solid black;
+    user-select: none;
+    border-spacing: 2px solid #ffff;
+    box-shadow: 5px 10px 10px #888888;
+    
+    
+}
+
+ tr .total {
+    font-weight: bold;
+    position: relative;
+    background-color: yellow;
+    text-align: right;
+    padding-right: 50px;
+}
+
+h3 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.table-2 {
+    margin-left: 40px;
+    width: 650px;
+   
+    left: -15px;
+    right: 10;
+    top: -3%;
+    position: relative;
+}
+
+.twenty {
+    text-align: right;
+    background-color: yellow;
+    font-weight: bold;
+}
+.marketing {
+    background-color: #ffff;
+    padding: 50px -20px;
+    padding-bottom: 30px;
+    position: relative;
+}
